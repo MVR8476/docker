@@ -1,7 +1,6 @@
 FROM openjdk:8-jre-alpine
 #FROM java:8
 
-
 ENV VERSION="5.15.7" USER="activemq" 
 LABEL activemq-version="${VERSION}" desc="Apache ActiveMQ"
 
