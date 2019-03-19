@@ -27,6 +27,7 @@ COPY conf/RestAuthPlugin.jar /apache-activemq/lib/RestAuthPlugin.jar
 CMD ["apache-activemq/bin/activemq", "console"]
 
 # Expose all port
+
 EXPOSE 8161
 EXPOSE 61616
 EXPOSE 5672
